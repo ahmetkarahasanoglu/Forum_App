@@ -1,0 +1,7 @@
+show databases;
+use `quest-app`;
+
+select * from post;
+select * from user;
+select * from comment;
+select * from p_like;

@@ -1,0 +1,30 @@
+- Users should be able to sign up.
+- Users should be able to log in.
+- Users should be able to post.
+- Users should be able to comment on a post.
+- Users should be able to like a post.
+- System should send push notifications.
+- System should be available 7/24 with less than 1% downtime.
+
+
+*** REST API ***
+/users
+/users/{userId}
+/users/{userId}/profile
+
+/posts
+/posts?user={userId}
+/posts/{postId}
+
+/comments
+/comments?postId={postId}
+/comments?user={userId}
+/comments?postId={postId}&userId={userId}
+/comments/{commentId}
+
+/likes
+/likes?postId={postId}
+/likes?user={userId}
+/likes/{likeId}
+
+security later...
